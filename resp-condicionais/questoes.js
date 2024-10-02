@@ -19,48 +19,35 @@
 
 // lendo os valores de nome, sexo e estado civil
 
-const nome = prompt("Qual seu nome? ");
-const sexo = prompt("Qual seu sexo? Digite F ou M.");
-const estadocivil = prompt("Qual seu estado civil?");
+// const nome = prompt("Qual seu nome? ");
+// const sexo = prompt("Qual seu sexo? Digite F ou M.");
+// const estadocivil = prompt("Qual seu estado civil?");
 
 // condicional
 
-if (sexo == "F" && estadocivil == "Casada") {
-    const anosdecasada = prompt("Diga quanto tempo você tem de casada.");
-} else {
-    alert("Obrigado meu mano :)");
-}
+// if (sexo == "F" && estadocivil == "Casada") {
+//     const anosdecasada = prompt("Diga quanto tempo você tem de casada.");
+// } else {
+//     alert("Obrigado meu mano :)");
+// }
 
 // ---------------------------- Questao 3 ------------------------------------
 
-// lendo os valores de nome, sexo e estado civil
+let num = prompt("Digite um número:");
 
-
-// condicional
+if (num % 2 == 0) {
+    alert("Seu número é par.");
+} else {
+    alert("Seu número é ímpar.");
+}
 
 // ---------------------------- Questao 4 ------------------------------------
 
-// lendo os valores
-
-// condicional
-
 // ---------------------------- Questao 5 ------------------------------------
-
-// lendo os valores de nome, sexo e estado civil
-
-// condicional
 
 // ---------------------------- Questao 6 ------------------------------------
 
-// lendo os valores de nome, sexo e estado civil
-
-// condicional
-
 // ---------------------------- Questao 7 ------------------------------------
-
-// lendo os valores de nome, sexo e estado civil
-
-// condicional
 
 // ---------------------------- Questao 8 ------------------------------------
 

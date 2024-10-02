@@ -68,3 +68,12 @@ if (valor > 0) {
     let resultado = valor * 3
     console.log(`O triplo do numero ${resultado}`)
 }
+
+/* 6) Escreva um algoritmo que lê dois valores booleanos (lógicos) e então determina se ambos são 
+VERDADEIROS ou FALSOS. */
+
+const primeiroValor = true
+const segundoValor = false
+
+const resultado = primeiroValor && segundoValor ? 'VERDADEIROS' : 'FALSOS';
+console.log(resultado)

@@ -28,11 +28,11 @@ if (usuario.sexo === "F" && usuario.estado_civil === "CASADA") {
 
 /* 3) Faça um algoritmo para receber um número qualquer e informar na tela se é par ou ímpar.  */
 
-const valor = 5
+/* const valor = 5
 
 const verificaValor = valor % 2 === 0 ? 'PAR' : "IMPAR"
 
-console.log(verificaValor)
+console.log(verificaValor) */
 
 
 /* 4)  Faça  um  algoritmo  que  leia  dois  valores  inteiros  A  e  B  se  os  valores  forem  iguais  deverá  se  
@@ -54,3 +54,17 @@ function soma() {
 
 let C = soma()
 console.log(C)
+
+
+/* 5)  Encontrar  o  dobro  de  um  número  caso  ele  seja  positivo  e  o  seu  triplo  caso  seja  negativo,  
+imprimindo o resultado. */
+
+const valor = -4
+
+if (valor > 0) {
+    let resultado = valor * 2
+    console.log(`O dobro do numero: ${resultado}`)
+} else if (valor) {
+    let resultado = valor * 3
+    console.log(`O triplo do numero ${resultado}`)
+}

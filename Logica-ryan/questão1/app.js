@@ -9,8 +9,8 @@
     let valor = A + B
 
         if (valor < C){
-            console.log('É menor')
+            console.log(`${valor} é menor que C`)
         } else {
-            console.log('É maior')
+            console.log(`${valor} é maior que C`)
            
         }

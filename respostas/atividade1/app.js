@@ -7,3 +7,4 @@ if (A + B < C) {
 } else {
     console.log("Maior");
 }
+

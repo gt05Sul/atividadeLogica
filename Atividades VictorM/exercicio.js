@@ -56,21 +56,34 @@
 
 // exercício 6
 
-const cond1 = prompt("Dite um valor boolean(false/true");
-const cond2 = prompt("Dite um valor boolean(false/true");
+// const cond1 = prompt("Dite um valor boolean(false/true)");
+// const cond2 = prompt("Dite um valor boolean(false/true)");
 
-if (cond1 === "true" ){
-    const valor1 = true;
-    console.log(`O primeiro valor é ${valor1}`);
-} else {
-    const valor1 = false;
-    console.log(`O Primeiro valor é ${valor1}`);
-}
+// if (cond1 === "true" ){
+//     const valor1 = true;
+//     console.log(`O primeiro valor é ${valor1}`);
+// } else {
+//     const valor1 = false;
+//     console.log(`O Primeiro valor é ${valor1}`);
+// }
 
-if (cond2 === "true" ){
-    const valor2 = true;
-    console.log(`O segundo valor é ${valor2}`);
-} else {
-    const valor2 = false;
-    console.log(`O segundo valor é ${valor2}`);
-}
+// if (cond2 === "true" ){
+//     const valor2 = true;
+//     console.log(`O segundo valor é ${valor2}`);
+// } else {
+//     const valor2 = false;
+//     console.log(`O segundo valor é ${valor2}`);
+// }
+
+
+// exercício 7
+
+let numero = Number(prompt("Digite um número: "))
+
+    if (numero % 2 === 0)  {
+        numero = numero + 5;
+        console.log(`Como o valor é par, foi somado 5, logo o valor é = ${numero}`);
+    } else {
+        numero = numero + 8;
+        console.log(`Como o valor é par, foi somado 8, logo o valor é = ${numero}`);
+    }

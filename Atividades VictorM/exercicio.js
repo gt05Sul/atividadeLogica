@@ -45,10 +45,32 @@
 
 // exercício 5
 
-const numero = Number(prompt("Digite um número: "))
+// const numero = Number(prompt("Digite um número: "))
 
-if ( numero >=0){
-    console.log(`Como os número é positivo, o dobro dele é = ${numero*2}`);
-} else{
-    console.log(`Como o número é negativo, o triplo dele é = ${numero*3}`);   
+// if ( numero >=0){
+//     console.log(`Como os número é positivo, o dobro dele é = ${numero*2}`);
+// } else{
+//     console.log(`Como o número é negativo, o triplo dele é = ${numero*3}`);   
+// }
+
+
+// exercício 6
+
+const cond1 = prompt("Dite um valor boolean(false/true");
+const cond2 = prompt("Dite um valor boolean(false/true");
+
+if (cond1 === "true" ){
+    const valor1 = true;
+    console.log(`O primeiro valor é ${valor1}`);
+} else {
+    const valor1 = false;
+    console.log(`O Primeiro valor é ${valor1}`);
+}
+
+if (cond2 === "true" ){
+    const valor2 = true;
+    console.log(`O segundo valor é ${valor2}`);
+} else {
+    const valor2 = false;
+    console.log(`O segundo valor é ${valor2}`);
 }

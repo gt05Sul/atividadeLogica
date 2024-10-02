@@ -59,7 +59,7 @@ console.log(C)
 /* 5)  Encontrar  o  dobro  de  um  número  caso  ele  seja  positivo  e  o  seu  triplo  caso  seja  negativo,  
 imprimindo o resultado. */
 
-const valor = -4
+/* const valor = -4
 
 if (valor > 0) {
     let resultado = valor * 2
@@ -67,7 +67,7 @@ if (valor > 0) {
 } else if (valor) {
     let resultado = valor * 3
     console.log(`O triplo do numero ${resultado}`)
-}
+} */
 
 /* 6) Escreva um algoritmo que lê dois valores booleanos (lógicos) e então determina se ambos são 
 VERDADEIROS ou FALSOS. */
@@ -77,3 +77,17 @@ const segundoValor = false
 
 const resultado = primeiroValor && segundoValor ? 'VERDADEIROS' : 'FALSOS';
 console.log(resultado)
+
+
+/* 7)  Faça  um  algoritmo  que  leia  uma  variável  e  some  5  caso  seja  par  ou  some  8  caso  seja  ímpar,  
+imprimir o resultado desta operação.  */
+
+const valor = 5
+
+if (valor % 2 === 0) {
+    const resultado = valor + 5
+    console.log("O número e par:",resultado)
+} else {
+    const resultado = valor + 8
+    console.log("O número impar:",resultado)
+}

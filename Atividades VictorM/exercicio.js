@@ -1,8 +1,8 @@
 // exercicio 1
 
-// const a = Number(prompt("Digite o primeiro valor: "))
-// const b = Number(prompt("Digite o segundo valor: "))
-// const c = Number(prompt("Digite o terceiro valor valor: "))
+// const a = Number(prompt("Digite o primeiro valor: "));
+// const b = Number(prompt("Digite o segundo valor: "));
+// const c = Number(prompt("Digite o terceiro valor valor: "));
 
 // if (a + b < c) {
 //     console.log("A + B é menor que C");
@@ -12,17 +12,17 @@
 
 // exercício 2
 
-// const nome = prompt("Digite seu nome: ")
-// const sexo = prompt("Qual seu sexo (M/F)")
+// const nome = prompt("Digite seu nome: ");
+// const sexo = prompt("Qual seu sexo (M/F)");
 // const estado_civil = prompt ("Qual seu estado civil? (solteiro(a)/casado(a)")
 
 //     if (sexo === "F" && estado_civil === "casada") {
-//         const tempo = Number(prompt("Casada há quanto tempo? (em anos)"))
+//         const tempo = Number(prompt("Casada há quanto tempo? (em anos)"));
 //     }
 
 // exercício 3
 
-// const numero = Number(prompt("Digite um número: "))
+// const numero = Number(prompt("Digite um número: "));
 
 //     if (numero % 2 === 0)  {
 //         console.log("O número é par.");
@@ -33,8 +33,8 @@
 
 // exercício 4
 
-// const a = Number(prompt("Digite o primiero valor: "))
-// const b = Number(prompt("Digite o segundo valor: "))
+// const a = Number(prompt("Digite o primiero valor: "));
+// const b = Number(prompt("Digite o segundo valor: "));
 
 // if (a === b){
 //     console.log(`Os valores são iguais, então a soma deles é = ${a+b}`);
@@ -78,7 +78,7 @@
 
 // exercício 7
 
-// let numero = Number(prompt("Digite um número: "))
+// let numero = Number(prompt("Digite um número: "));
 
 //     if (numero % 2 === 0)  {
 //         numero = numero + 5;
@@ -91,22 +91,34 @@
 
 //exercício 8
 
-const a = Number(prompt("Digite o primeiro valor: "))
-const b = Number(prompt("Digite o segundo valor: "))
-const c = Number(prompt("Digite o terceiro valor: "))
+// const a = Number(prompt("Digite o primeiro valor: "));
+// const b = Number(prompt("Digite o segundo valor: "));
+// const c = Number(prompt("Digite o terceiro valor: "));
 
-if(a>b && b>c){
-    console.log(`Os valores em ordem decrescente: ${a}, ${b}, ${c}`);
-}else if (a>c && c>b){
-    console.log(`Os valores em ordem decrescente: ${a}, ${c}, ${b}`);
-} else if(b>a && a>c){
-    console.log(`Os valores em ordem decrescente: ${b}, ${a}, ${c}`);
-}else if(b>c && c>a){
-    console.log(`Os valores em ordem decrescente: ${b}, ${c}, ${a}`);
-} else if(c>a && a>b){
-    console.log(`Os valores em ordem decrescente: ${c}, ${a}, ${b}`);
-} else if(c>b && b>a){
-    console.log(`Os valores em ordem decrescente: ${c}, ${b}, ${a}`);
-} else{
-    console.log("error");
+// if(a>b && b>c){
+//     console.log(`Os valores em ordem decrescente: ${a}, ${b}, ${c}`);
+// }else if (a>c && c>b){
+//     console.log(`Os valores em ordem decrescente: ${a}, ${c}, ${b}`);
+// } else if(b>a && a>c){
+//     console.log(`Os valores em ordem decrescente: ${b}, ${a}, ${c}`);
+// }else if(b>c && c>a){
+//     console.log(`Os valores em ordem decrescente: ${b}, ${c}, ${a}`);
+// } else if(c>a && a>b){
+//     console.log(`Os valores em ordem decrescente: ${c}, ${a}, ${b}`);
+// } else if(c>b && b>a){
+//     console.log(`Os valores em ordem decrescente: ${c}, ${b}, ${a}`);
+// } else{
+//     console.log("error");
+// }
+
+
+// exercicio 9
+
+const altura = Number(prompt("Digite sua altura(em metros):"));
+const sexo = prompt("Digite seu sexto (M/F):");
+
+if (sexo === "M"){
+    console.log(`Seu peso ideal é: ${(72.7*altura)-58}`);
+} else if (sexo === M){
+    console.log(`Seu peso ideal é: ${(62.1*altura)-44.7}`);
 }

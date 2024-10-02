@@ -9,3 +9,13 @@
 // } else {
 //     console.log("A + B é maior que C");
 // }
+
+// exercício 2
+
+// const nome = prompt("Digite seu nome: ")
+// const sexo = prompt("Qual seu sexo (M/F)")
+// const estado_civil = prompt ("Qual seu estado civil? (solteiro(a)/casado(a)")
+
+//     if (sexo === "F" && estado_civil === "casada") {
+//         const tempo = Number(prompt("Casada há quanto tempo? (em anos)"))
+//     }

@@ -33,12 +33,22 @@
 
 // exercício 4
 
-const a = Number(prompt("Digite o primiero valor: "))
-const b = Number(prompt("Digite o segundo valor: "))
+// const a = Number(prompt("Digite o primiero valor: "))
+// const b = Number(prompt("Digite o segundo valor: "))
 
-if (a === b){
-    console.log(`Os valores são iguais, então a soma deles é = ${a+b}`);
+// if (a === b){
+//     console.log(`Os valores são iguais, então a soma deles é = ${a+b}`);
+// } else{
+//     console.log(`Os valores são diferentes, então o produto deles é = ${a*b}`);
+// }
+
+
+// exercício 5
+
+const numero = Number(prompt("Digite um número: "))
+
+if ( numero >=0){
+    console.log(`Como os número é positivo, o dobro dele é = ${numero*2}`);
 } else{
-    console.log(`Os valores são diferentes, então o produto deles é = ${a*b}`);
-    
+    console.log(`Como o número é negativo, o triplo dele é = ${numero*3}`);   
 }

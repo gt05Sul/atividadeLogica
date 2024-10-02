@@ -78,12 +78,35 @@
 
 // exercício 7
 
-let numero = Number(prompt("Digite um número: "))
+// let numero = Number(prompt("Digite um número: "))
 
-    if (numero % 2 === 0)  {
-        numero = numero + 5;
-        console.log(`Como o valor é par, foi somado 5, logo o valor é = ${numero}`);
-    } else {
-        numero = numero + 8;
-        console.log(`Como o valor é par, foi somado 8, logo o valor é = ${numero}`);
-    }
+//     if (numero % 2 === 0)  {
+//         numero = numero + 5;
+//         console.log(`Como o valor é par, foi somado 5, logo o valor é = ${numero}`);
+//     } else {
+//         numero = numero + 8;
+//         console.log(`Como o valor é par, foi somado 8, logo o valor é = ${numero}`);
+//     }
+
+
+//exercício 8
+
+const a = Number(prompt("Digite o primeiro valor: "))
+const b = Number(prompt("Digite o segundo valor: "))
+const c = Number(prompt("Digite o terceiro valor: "))
+
+if(a>b && b>c){
+    console.log(`Os valores em ordem decrescente: ${a}, ${b}, ${c}`);
+}else if (a>c && c>b){
+    console.log(`Os valores em ordem decrescente: ${a}, ${c}, ${b}`);
+} else if(b>a && a>c){
+    console.log(`Os valores em ordem decrescente: ${b}, ${a}, ${c}`);
+}else if(b>c && c>a){
+    console.log(`Os valores em ordem decrescente: ${b}, ${c}, ${a}`);
+} else if(c>a && a>b){
+    console.log(`Os valores em ordem decrescente: ${c}, ${a}, ${b}`);
+} else if(c>b && b>a){
+    console.log(`Os valores em ordem decrescente: ${c}, ${b}, ${a}`);
+} else{
+    console.log("error");
+}

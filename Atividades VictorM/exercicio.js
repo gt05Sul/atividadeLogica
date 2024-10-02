@@ -20,12 +20,25 @@
 //         const tempo = Number(prompt("Casada há quanto tempo? (em anos)"))
 //     }
 
-//exercício 3
+// exercício 3
 
-const numero = Number(prompt("Digite um número: "))
+// const numero = Number(prompt("Digite um número: "))
 
-    if (numero % 2 === 0)  {
-        console.log("O número é par.");
-    } else {
-        console.log("o número é ímpar");
-    }
+//     if (numero % 2 === 0)  {
+//         console.log("O número é par.");
+//     } else {
+//         console.log("o número é ímpar");
+//     }
+
+
+// exercício 4
+
+const a = Number(prompt("Digite o primiero valor: "))
+const b = Number(prompt("Digite o segundo valor: "))
+
+if (a === b){
+    console.log(`Os valores são iguais, então a soma deles é = ${a+b}`);
+} else{
+    console.log(`Os valores são diferentes, então o produto deles é = ${a*b}`);
+    
+}

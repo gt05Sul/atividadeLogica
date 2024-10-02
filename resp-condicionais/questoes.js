@@ -28,7 +28,7 @@ const estadocivil = prompt("Qual seu estado civil?");
 if (sexo == "F" && estadocivil == "Casada") {
     const anosdecasada = prompt("Diga quanto tempo você tem de casada.");
 } else {
-    console.log ("Obrigado meu mano :)");
+    alert("Obrigado meu mano :)");
 }
 
 // ---------------------------- Questao 3 ------------------------------------

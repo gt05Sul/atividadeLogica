@@ -19,3 +19,13 @@
 //     if (sexo === "F" && estado_civil === "casada") {
 //         const tempo = Number(prompt("Casada há quanto tempo? (em anos)"))
 //     }
+
+//exercício 3
+
+const numero = Number(prompt("Digite um número: "))
+
+    if (numero % 2 === 0)  {
+        console.log("O número é par.");
+    } else {
+        console.log("o número é ímpar");
+    }

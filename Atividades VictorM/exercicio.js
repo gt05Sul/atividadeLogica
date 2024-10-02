@@ -126,16 +126,29 @@
 
 // exercício 10
 
-const altura = Number(prompt("Digite sua altura(em metros):"));
-const massa = Number(prompt("Digite seu peso(em kg):"));
-const result = massa/(altura**2)
+// const altura = Number(prompt("Digite sua altura(em metros):"));
+// const massa = Number(prompt("Digite seu peso(em kg):"));
+// const result = massa/(altura**2)
 
-if (result<18.5){
-    console.log("Segundo o IMC, você está abaixo do peso");
-} else if(result<25){
-    console.log("Segundo o IMC, você está com peso normal");
-} else if(result<30){
-    console.log("Segundo o IMC, você está acima do peso");
-} else {
-    console.log("Segundo o IMC, você está obeso");
-}
+// if (result<18.5){
+//     console.log("Segundo o IMC, você está abaixo do peso");
+// } else if(result<25){
+//     console.log("Segundo o IMC, você está com peso normal");
+// } else if(result<30){
+//     console.log("Segundo o IMC, você está acima do peso");
+// } else {
+//     console.log("Segundo o IMC, você está obeso");
+// }
+
+
+// exercicio segundo tempo
+
+let valora = "azul";
+let valorb = "vermelho";
+let valorc = "";
+
+valorc = valora;
+valora = valorb;
+valorb = valorc;
+
+console.log(valora,valorb);

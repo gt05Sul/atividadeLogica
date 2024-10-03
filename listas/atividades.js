@@ -1,4 +1,4 @@
-//Condicionais
+// Condicionais
 // var idade = 16;
 
 // if (idade >= 18) {
@@ -21,27 +21,43 @@
 //         desconto = '0%';
 // }
 
-//Questão 1
+// Repetições
 
-// var valora = 3;
-// var valorb = 3;
-// var valorc = 7;
+// let contador = 1;
 
-// const soma = valora + valorb;
-// if (soma < valorc) {
-//     console.log("A soma de A+B é menor que C");
-// } else {
-//     console.log("A soma de A+B é maior que C");
+// while (contador < 10) {
+//     console.log(contador);
+//     contador++
 // }
 
-//Questão 2
+// do {
+//     console.log(contador);
+//     contador++
+// } while (contador < 10)
 
-var nome = "Maria";
-var sexo = "F";
-var estadocivil = "Casada";
+// for (let i = 0; i <= 10; i++) {
+//     // const element = array[i];
+//     console.log(i);
+// }
 
-if (sexo == "F" && estadocivil == "Casada") {
-    console.log("A quantos anos você é casada?");
-}else {
-    console.log("tudo bem");
+// const numeros = [10, 20, 30, 40];
+// let soma = 0;
+
+// console.log(numeros.length);
+
+// for (let i = 0; i < numeros.length; i++) {
+//     soma += numeros[i];
+// }
+// console.log(soma);
+
+let frutas = ["Maçã", "Banana", "Morango"];
+
+for (let fruta of frutas) {
+    console.log(fruta);
+}
+
+let pessoa = { nome: "vini", idade: 19, cidade: "Fortal"}
+
+for (let chave in pessoa) {
+    console.log(`${chave}: ${pessoa[chave]}`);
 }

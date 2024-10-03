@@ -18,12 +18,11 @@ const alunoId = 1;
 const nota1 = 10;
 const nota2 = 10;
 const nota3 = 10;
-const mediaExercicios = 10; // Média dos exercícios (ME)
+const mediaExercicios = 10; 
 
-// Calcula a média de aproveitamento (MA)
 const mediaDeAproveitamento = (nota1 + nota2 * 2 + nota3 * 3 + mediaExercicios) / 7;
 
-// Determina o conceito baseado na média de aproveitamento
+
 let conceito;
 if (mediaDeAproveitamento >= 9) {
     conceito = "A";
@@ -37,7 +36,6 @@ if (mediaDeAproveitamento >= 9) {
     conceito = "E";
 }
 
-// Exibe as informações do aluno e a avaliação final
 console.log(`
     Aluno ${alunoId}
     Suas notas: Nota 1: ${nota1} | Nota 2: ${nota2} | Nota 3: ${nota3}
@@ -46,7 +44,7 @@ console.log(`
     Seu conceito: ${conceito}
 `);
 
-// Exibe se o aluno foi aprovado ou reprovado com base no conceito
+
 if (conceito === "A" || conceito === "B" || conceito === "C") {
     console.log("Aprovado");
 } else {

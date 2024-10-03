@@ -8,9 +8,9 @@ Código Condição de pagamento
 3 Em duas vezes, preço normal de etiqueta sem juros 
 4 Em duas vezes, preço normal de etiqueta mais juros de 10% */
 
-let preco = 100.0;
+const preco = 150.0;
 
-let condicaoDePagamento = 2;
+const condicaoDePagamento = 2;
 
 let valorFinal;
 

@@ -156,49 +156,73 @@
 
 // exercício 11
 
-const produto1 = "picanha";
-const valor1 = 65;
-const produto2 = "cupim";
-const valor2 = 35;
+// const produto1 = "picanha";
+// const valor1 = 65;
+// const produto2 = "cupim";
+// const valor2 = 35;
 
-const select = prompt(`Escolha um produto: ${produto1} ou ${produto2}`)
+// const select = prompt(`Escolha um produto: ${produto1} ou ${produto2}`)
 
-if (select === produto1){
-    const pagamento = Number(prompt(`
-        o produto ${produto1} custa R$${valor1}. Qual a forma de pagamento?
-        1 À vista em dinheiro ou cheque, recebe 10% de desconto,
-        2 À vista no cartão de crédito, recebe 15% de desconto,
-        3 Em duas vezes, preço normal de etiqueta sem juros,
-        4 Em duas vezes, preço normal de etiqueta mais juros de 10%.`))
-    if (pagamento === 1){
-        console.log(`O valor total da compra foi de R$${valor1*0.9}`);
-    } else if (pagamento === 2){
-        console.log(`O valor total da compra foi de R$${valor1*0.85}`);
-    } else if(pagamento === 3){
-        console.log(`O valor total da compra foi de R$${valor1}`);
-    } else if(pagamento === 4){
-        console.log(`O valor total da compra foi de R$${valor1*1.1}`);
-    } else {
-        console.log("Opção inválida!");
-    }
-} else if (select === produto2){
-    const pagamento = Number(prompt(`
-        o produto ${produto2} custa R$${valor2}. Qual a forma de pagamento?
-        1 À vista em dinheiro ou cheque, recebe 10% de desconto,
-        2 À vista no cartão de crédito, recebe 15% de desconto,
-        3 Em duas vezes, preço normal de etiqueta sem juros,
-        4 Em duas vezes, preço normal de etiqueta mais juros de 10%.`))
-    if (pagamento === 2){
-        console.log(`O valor total da compra foi de R$${valor2*0.9}`);
-    } else if (pagamento === 2){
-        console.log(`O valor total da compra foi de R$${valor2*0.85}`);
-    } else if(pagamento === 3){
-        console.log(`O valor total da compra foi de R$${valor2}`);
-    } else if(pagamento === 4){
-        console.log(`O valor total da compra foi de R$${valor2*1.1}`);
-    } else {
-        console.log("Opção inválida!");
-    }
+// if (select === produto1){
+//     const pagamento = Number(prompt(`
+//         o produto ${produto1} custa R$${valor1}. Qual a forma de pagamento?
+//         1 À vista em dinheiro ou cheque, recebe 10% de desconto,
+//         2 À vista no cartão de crédito, recebe 15% de desconto,
+//         3 Em duas vezes, preço normal de etiqueta sem juros,
+//         4 Em duas vezes, preço normal de etiqueta mais juros de 10%.`))
+//     if (pagamento === 1){
+//         console.log(`O valor total da compra foi de R$${valor1*0.9}`);
+//     } else if (pagamento === 2){
+//         console.log(`O valor total da compra foi de R$${valor1*0.85}`);
+//     } else if(pagamento === 3){
+//         console.log(`O valor total da compra foi de R$${valor1}`);
+//     } else if(pagamento === 4){
+//         console.log(`O valor total da compra foi de R$${valor1*1.1}`);
+//     } else {
+//         console.log("Opção inválida!");
+//     }
+// } else if (select === produto2){
+//     const pagamento = Number(prompt(`
+//         o produto ${produto2} custa R$${valor2}. Qual a forma de pagamento?
+//         1 À vista em dinheiro ou cheque, recebe 10% de desconto,
+//         2 À vista no cartão de crédito, recebe 15% de desconto,
+//         3 Em duas vezes, preço normal de etiqueta sem juros,
+//         4 Em duas vezes, preço normal de etiqueta mais juros de 10%.`))
+//     if (pagamento === 2){
+//         console.log(`O valor total da compra foi de R$${valor2*0.9}`);
+//     } else if (pagamento === 2){
+//         console.log(`O valor total da compra foi de R$${valor2*0.85}`);
+//     } else if(pagamento === 3){
+//         console.log(`O valor total da compra foi de R$${valor2}`);
+//     } else if(pagamento === 4){
+//         console.log(`O valor total da compra foi de R$${valor2*1.1}`);
+//     } else {
+//         console.log("Opção inválida!");
+//     }
+// } else{
+//     console.log("Opção inválida!");
+// }
+
+
+// exercício 12
+
+const id = Number(prompt("Digite a id do aluno: "))
+const nota1 = Number(prompt("Digite a primeira nota: "))
+const nota2 = Number(prompt("Digite a segunda nota: "))
+const nota3 = Number(prompt("Digite a terceira nota: "))
+const me = Number(prompt("Digite a média dos exercícios: "))
+const ma = ((nota1)+(nota2*2)+(nota3*3)+me)/7
+
+if (ma >= 60 && ma <= 100){
+    console.log(`
+        O aluno de identificação ${id} obteve as seguintes notas:
+        Nota 1: ${nota1}; Nota 2: ${nota2}; Nota 3: ${nota3} e média dos exercícios: ${me}
+        A média de aproveitamento foi de: ${ma}. Então o aluno está Aprovado`);
+} else if(ma >= 0 && ma < 60){
+    console.log(`
+O aluno de identificação ${id} obteve as seguintes notas:
+Nota 1: ${nota1}; Nota 2: ${nota2}; Nota 3: ${nota3} e média dos exercícios: ${me}
+A média de aproveitamento foi de: ${ma}. Então o aluno está Reprovado`);
 } else{
-    console.log("Opção inválida!");
+    console.log("Erro na atribuição dos valores!");
 }

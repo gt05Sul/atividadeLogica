@@ -1,3 +1,6 @@
+// 8)  Escreva  um  algoritmo  que  leia  três  valores  inteiros  e  diferentes  e  mostre-os  em  ordem  
+// decrescente. 
+
 let valor1 = parseFloat(prompt("Digite o primeiro valor:"));
 let valor2 = parseFloat(prompt("Digite o segundo valor:"));
 let valor3 = parseFloat(prompt("Digite o terceiro valor:"));

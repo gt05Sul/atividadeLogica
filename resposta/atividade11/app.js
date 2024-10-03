@@ -10,7 +10,6 @@
 
 
  tipoDePagamento = "credito"
- precoProduto
 
  switch (tipoDePagamento){
     case "dinheiro":

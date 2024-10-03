@@ -143,12 +143,62 @@
 
 // exercicio segundo tempo
 
-let valora = "azul";
-let valorb = "vermelho";
-let valorc = "";
+// let valora = "azul";
+// let valorb = "vermelho";
+// let valorc = "";
 
-valorc = valora;
-valora = valorb;
-valorb = valorc;
+// valorc = valora;
+// valora = valorb;
+// valorb = valorc;
 
-console.log(valora,valorb);
+// console.log(valora,valorb);
+
+
+// exercício 11
+
+const produto1 = "picanha";
+const valor1 = 65;
+const produto2 = "cupim";
+const valor2 = 35;
+
+const select = prompt(`Escolha um produto: ${produto1} ou ${produto2}`)
+
+if (select === produto1){
+    const pagamento = Number(prompt(`
+        o produto ${produto1} custa R$${valor1}. Qual a forma de pagamento?
+        1 À vista em dinheiro ou cheque, recebe 10% de desconto,
+        2 À vista no cartão de crédito, recebe 15% de desconto,
+        3 Em duas vezes, preço normal de etiqueta sem juros,
+        4 Em duas vezes, preço normal de etiqueta mais juros de 10%.`))
+    if (pagamento === 1){
+        console.log(`O valor total da compra foi de R$${valor1*0.9}`);
+    } else if (pagamento === 2){
+        console.log(`O valor total da compra foi de R$${valor1*0.85}`);
+    } else if(pagamento === 3){
+        console.log(`O valor total da compra foi de R$${valor1}`);
+    } else if(pagamento === 4){
+        console.log(`O valor total da compra foi de R$${valor1*1.1}`);
+    } else {
+        console.log("Opção inválida!");
+    }
+} else if (select === produto2){
+    const pagamento = Number(prompt(`
+        o produto ${produto2} custa R$${valor2}. Qual a forma de pagamento?
+        1 À vista em dinheiro ou cheque, recebe 10% de desconto,
+        2 À vista no cartão de crédito, recebe 15% de desconto,
+        3 Em duas vezes, preço normal de etiqueta sem juros,
+        4 Em duas vezes, preço normal de etiqueta mais juros de 10%.`))
+    if (pagamento === 2){
+        console.log(`O valor total da compra foi de R$${valor2*0.9}`);
+    } else if (pagamento === 2){
+        console.log(`O valor total da compra foi de R$${valor2*0.85}`);
+    } else if(pagamento === 3){
+        console.log(`O valor total da compra foi de R$${valor2}`);
+    } else if(pagamento === 4){
+        console.log(`O valor total da compra foi de R$${valor2*1.1}`);
+    } else {
+        console.log("Opção inválida!");
+    }
+} else{
+    console.log("Opção inválida!");
+}

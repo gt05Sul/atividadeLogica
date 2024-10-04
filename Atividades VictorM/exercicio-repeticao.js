@@ -33,33 +33,67 @@
 
 
 // exercício 03
-let contadorP = 0;
-let contadorN = 0;
-let contador = 0;
-let soma = 0;
-let media = 0;
-let numero;
+// let contadorP = 0;
+// let contadorN = 0;
+// let contador = 0;
+// let soma = 0;
+// let media = 0;
+// let numero;
 
-while (numero != 0){
-    numero = Number(prompt("Digite um valor (digite 0 para parar):"))
-    if (numero >0){
-        contadorP++;
-    } else if (numero < 0){
-        contadorN++;
-    } else{
+// while (numero != 0){
+//     numero = Number(prompt("Digite um valor (digite 0 para parar):"))
+//     if (numero >0){
+//         contadorP++;
+//     } else if (numero < 0){
+//         contadorN++;
+//     } else{
+//         break
+//     }
+//     contador++;
+//     soma += numero;
+// }
+
+// media = (soma/contador);
+// let porcentagemP = (100 * contadorP)/contador;
+// let porcentagemN = (100 * contadorN)/contador;
+
+// console.log(`
+// A media aritmética dos valor enviados foi = ${media};
+// a quantidade de valores positivos: ${contadorP} e negativos: ${contadorN}; 
+// a porcentagem de valores positivos: %${porcentagemP} e a porcentagem de números negativos: %${porcentagemN}.`);
+
+
+// exercício 4
+let numero = 0;
+let contador1 = 0;
+let contador2 = 0;
+let contador3 = 0;
+let contador4 = 0;
+
+while (numero >= 0){
+    numero = Number(prompt("Digite um valor de 0 a 100(digite um valor negativo para parar):"))
+    if (numero < 0 ){
+        break
+    } else if (numero >= 0 && numero <= 25){
+        contador1++;
+    } else if (numero <= 50){
+        contador2++;
+        console.log(contador2);
+        
+    } else if(numero <= 75){
+        contador3++;
+    }else if(numero <= 100){
+        contador4++;
+    } else {
         break
     }
-    contador++;
-    soma += numero;
 }
 
-media = (soma/contador);
-let porcentagemP = (100 * contadorP)/contador;
-let porcentagemN = (100 * contadorN)/contador;
-
-console.log(`
-A media aritmética dos valor enviados foi = ${media};
-a quantidade de valores positivos: ${contadorP} e negativos: ${contadorN}; 
-a porcentagem de valores positivos: %${porcentagemP} e a porcentagem de números negativos: %${porcentagemN}.`);
+console.log(`Quantidade de números contados foram:
+entre 0 e 25= ${contador1}
+entre 26 e 50= ${contador2}
+entre 51 e 75= ${contador3}
+entre 76 e 100= ${contador4}`);
 
 
+//eercício 5

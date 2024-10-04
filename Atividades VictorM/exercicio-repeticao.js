@@ -6,7 +6,6 @@
 //     if (contador % 3 === 0 && contador % 2  === 1){
 //         soma += contador;
 //         console.log(soma);
-        
 //     }
 //     contador ++
 // }
@@ -15,6 +14,7 @@
 
 
 // exercício 02
+
 // let maiorAltura = 0;
 // let menorAltura = 0;
 

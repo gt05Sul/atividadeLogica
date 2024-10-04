@@ -100,37 +100,47 @@
 
 //exercício 5
 
-let contadorPar = 0;
-let contadorImpar = 0;
-let contador = 0;
-let somaPar = 0;
-let soma = 0;
-let media = 0;
-let mediaPar = 0;
-let numero;
+// let contadorPar = 0;
+// let contadorImpar = 0;
+// let contador = 0;
+// let somaPar = 0;
+// let soma = 0;
+// let media = 0;
+// let mediaPar = 0;
+// let numero;
 
-while (numero != 0){
-    numero = Number(prompt("Digite um valor positivo: "))
-    if (numero >0){
-        if (numero % 2 === 0){
-            contadorPar++;
-            somaPar += numero
-        } else{
-            contadorImpar++;
-        }
-    } else{
-        break
-    }
-    contador++;
-    soma += numero;
-}
+// while (numero != 0){
+//     numero = Number(prompt("Digite um valor positivo: "))
+//     if (numero >0){
+//         if (numero % 2 === 0){
+//             contadorPar++;
+//             somaPar += numero
+//         } else{
+//             contadorImpar++;
+//         }
+//     } else{
+//         break
+//     }
+//     contador++;
+//     soma += numero;
+// }
 
-mediaPar = (somaPar/contadorPar);
-media = (soma/contador);
+// mediaPar = (somaPar/contadorPar);
+// media = (soma/contador);
 
-console.log(`
-A quantidade de número pares: ${contadorPar} e ímpares: ${contadorImpar}; 
-A media dos valor pares enviados foi = ${mediaPar};
-A media geral dos valor enviados foi = ${media};`);
+// console.log(`
+// A quantidade de número pares: ${contadorPar} e ímpares: ${contadorImpar}; 
+// A media dos valor pares enviados foi = ${mediaPar};
+// A media geral dos valor enviados foi = ${media};`);
+
 
 // exercício 6
+
+for (let i = 100; i<=200; i++){
+    if (i % 2 === 1){
+        console.log(i);
+    }
+}
+
+
+//exercício 7

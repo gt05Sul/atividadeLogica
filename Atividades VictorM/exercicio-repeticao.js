@@ -136,11 +136,26 @@
 
 // exercício 6
 
-for (let i = 100; i<=200; i++){
-    if (i % 2 === 1){
-        console.log(i);
+// for (let i = 100; i<=200; i++){
+//     if (i % 2 === 1){
+//         console.log(i);
+//     }
+// }
+
+
+//exercício 7
+
+let contador = Number.parseInt(prompt("Digite um número entre 1 e 10:"))
+
+if (contador < 0 && contador > 10){
+    alert("Tente novamente.")
+} else {
+    console.log(`Tabuada do ${contador} de 0 a 10:`);
+    
+    for (let i = 0; i<=10; i++){
+        console.log(`${i} x ${contador} = ${i*contador}`);
     }
 }
 
 
-//exercício 7
+// exercício 8

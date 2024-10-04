@@ -206,23 +206,23 @@
 
 // exercício 12
 
-const id = Number(prompt("Digite a id do aluno: "))
-const nota1 = Number(prompt("Digite a primeira nota: "))
-const nota2 = Number(prompt("Digite a segunda nota: "))
-const nota3 = Number(prompt("Digite a terceira nota: "))
-const me = Number(prompt("Digite a média dos exercícios: "))
-const ma = ((nota1)+(nota2*2)+(nota3*3)+me)/7
+// const id = Number(prompt("Digite a id do aluno: "))
+// const nota1 = Number(prompt("Digite a primeira nota: "))
+// const nota2 = Number(prompt("Digite a segunda nota: "))
+// const nota3 = Number(prompt("Digite a terceira nota: "))
+// const me = Number(prompt("Digite a média dos exercícios: "))
+// const ma = ((nota1)+(nota2*2)+(nota3*3)+me)/7
 
-if (ma >= 60 && ma <= 100){
-    console.log(`
-        O aluno de identificação ${id} obteve as seguintes notas:
-        Nota 1: ${nota1}; Nota 2: ${nota2}; Nota 3: ${nota3} e média dos exercícios: ${me}
-        A média de aproveitamento foi de: ${ma}. Então o aluno está Aprovado`);
-} else if(ma >= 0 && ma < 60){
-    console.log(`
-O aluno de identificação ${id} obteve as seguintes notas:
-Nota 1: ${nota1}; Nota 2: ${nota2}; Nota 3: ${nota3} e média dos exercícios: ${me}
-A média de aproveitamento foi de: ${ma}. Então o aluno está Reprovado`);
-} else{
-    console.log("Erro na atribuição dos valores!");
-}
+// if (ma >= 60 && ma <= 100){
+//     console.log(`
+//         O aluno de identificação ${id} obteve as seguintes notas:
+//         Nota 1: ${nota1}; Nota 2: ${nota2}; Nota 3: ${nota3} e média dos exercícios: ${me}
+//         A média de aproveitamento foi de: ${ma}. Então o aluno está Aprovado`);
+// } else if(ma >= 0 && ma < 60){
+//     console.log(`
+// O aluno de identificação ${id} obteve as seguintes notas:
+// Nota 1: ${nota1}; Nota 2: ${nota2}; Nota 3: ${nota3} e média dos exercícios: ${me}
+// A média de aproveitamento foi de: ${ma}. Então o aluno está Reprovado`);
+// } else{
+//     console.log("Erro na atribuição dos valores!");
+// }

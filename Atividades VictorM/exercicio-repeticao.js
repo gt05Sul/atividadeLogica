@@ -164,10 +164,11 @@ let pa = 0;
 let a = Number.parseInt(prompt("Digite o valor do primeiro termo da P.A: "))
 let razao = Number.parseInt(prompt("Digite o valor da razão da P.A: "))
 
-for (let i=1; i<=20; i++){
+for (let i=1; i<=10; i++){
     pa = a + (i-1)*razao
     console.log(`Termo a${i} = ${pa}`);
 }
 
 
 //exercício 9
+

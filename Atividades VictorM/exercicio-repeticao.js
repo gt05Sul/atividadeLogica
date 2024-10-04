@@ -160,15 +160,26 @@
 
 // exercício 8
 
-let pa = 0;
-let a = Number.parseInt(prompt("Digite o valor do primeiro termo da P.A: "))
-let razao = Number.parseInt(prompt("Digite o valor da razão da P.A: "))
+// let pa = 0;
+// let a = Number.parseInt(prompt("Digite o valor do primeiro termo da P.A: "))
+// let razao = Number.parseInt(prompt("Digite o valor da razão da P.A: "))
 
-for (let i=1; i<=10; i++){
-    pa = a + (i-1)*razao
-    console.log(`Termo a${i} = ${pa}`);
-}
+// for (let i=1; i<=10; i++){
+//     pa = a + (i-1)*razao
+//     console.log(`Termo a${i} = ${pa}`);
+// }
 
 
 //exercício 9
 
+let pg = 0;
+let a = Number.parseInt(prompt("Digite o valor do primeiro termo da P.G: "))
+let razao = Number.parseInt(prompt("Digite o valor da razão da P.G: "))
+
+for (let i=1; i<=10; i++){
+    pg = a * razao**(i-1)
+    console.log(`Termo a${i} = ${pg}`);
+}
+
+
+// exercício 10

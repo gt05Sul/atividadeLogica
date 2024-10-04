@@ -172,14 +172,28 @@
 
 //exercício 9
 
-let pg = 0;
-let a = Number.parseInt(prompt("Digite o valor do primeiro termo da P.G: "))
-let razao = Number.parseInt(prompt("Digite o valor da razão da P.G: "))
+// let pg = 0;
+// let a = Number.parseInt(prompt("Digite o valor do primeiro termo da P.G: "))
+// let razao = Number.parseInt(prompt("Digite o valor da razão da P.G: "))
 
-for (let i=1; i<=10; i++){
-    pg = a * razao**(i-1)
-    console.log(`Termo a${i} = ${pg}`);
-}
+// for (let i=1; i<=10; i++){
+//     pg = a * razao**(i-1)
+//     console.log(`Termo a${i} = ${pg}`);
+// }
 
 
 // exercício 10
+let contador = Number.parseInt(prompt("Digite um número a ser fatorado: "))
+let texto = `${contador}! = `
+let fatorial = 1;
+let contadorT = contador;
+
+for (contador; contador>0; contador--){
+    fatorial = fatorial * contador;
+    texto = texto + contador
+    if (contador > 1){
+        texto = texto + " X "
+    }
+}
+
+console.log(`${texto} = ${fatorial}.`);

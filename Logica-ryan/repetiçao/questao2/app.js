@@ -14,19 +14,26 @@ for (let i = 0; i < 15; i++) {
 
 
 // Inicializa as variáveis para a menor e maior altura
-let menorAltura = alturas[0];
-let maiorAltura = alturas[0];
+// let menorAltura = alturas[0];
+// let maiorAltura = alturas[0];
+
+let menor = Math.min(...alturas);
+let maior = Math.max(...alturas);
+
+console.log(`A maior altura é: ${maior}`);
+console.log(`A menor altura é: ${menor}`)
+
 
 // Percorre o array para encontrar a menor e a maior altura
-for (let i = 1; i < alturas.length; i++) {
-    if (alturas[i] < menorAltura) {
-        menorAltura = alturas[i]; // Atualiza a menor altura
-    }
-    if (alturas[i] > maiorAltura) {
-        maiorAltura = alturas[i]; // Atualiza a maior altura
-    }
-}
+// for (let i = 1; i < alturas.length; i++) {
+//     if (alturas[i] < menorAltura) {
+//         menorAltura = alturas[i]; // Atualiza a menor altura
+//     }
+//     if (alturas[i] > maiorAltura) {
+//         maiorAltura = alturas[i]; // Atualiza a maior altura
+//     }
+// }
 
 // Exibe os resultados
-console.log("A menor altura do grupo é:", menorAltura, "metros");
-console.log("A maior altura do grupo é:", maiorAltura, "metros");
+// console.log("A menor altura do grupo é:", menorAltura, "metros");
+// console.log("A maior altura do grupo é:", maiorAltura, "metros");

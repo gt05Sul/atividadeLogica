@@ -25,7 +25,7 @@ function calcularValor(valor1, valor2, operacao = 1) {
 
     switch (operacao) {
         case 1:
-            const resultado = somar(valor1, valor2);
+            resultado = somar(valor1, valor2);
             break;
     }
 

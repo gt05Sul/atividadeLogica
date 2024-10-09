@@ -7,7 +7,6 @@ const empresas = [
     { nome: 'Apple', valorDeMercado: 845, CEO: 'Tim Cook', anoDeCriacao: 1976 }
 ];
 
-
 // Primeira questão: 1. Listar o nome de todas as empresas
 
 const listaDeEmpresas = empresas.map((empresa) => (empresa.nome)) // Jairo
@@ -72,3 +71,17 @@ empresas.forEach(empresa => {
 })
 
 console.log(nomes);
+
+let valores = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+// for(let pos=0; pos < valores.length; pos++) {
+//     console.log(`A posição ${pos} e a empresa: ${valores[pos]}`);
+// }
+
+for(let pos in valores) {
+    console.log(`A posição ${pos} tem o valor ${valores[pos]}`);
+}
+
+for(let pos in empresas) {
+    console.log(`A posição ${pos} tem o valor ${empresas[pos]}`);
+}
